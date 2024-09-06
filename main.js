@@ -1,6 +1,8 @@
-// console.log('Hello World')
+ console.log('Hello World')
 
-document.querySelector('button').addEventListener('click',function(){
-    var  my_time = new Date()
-    alert(my_time)
+ const alertCurrentTime = document.getElementById('alertCurrentTime')
+ 
+ alertCurrentTime.addEventListener('click',function(){
+    const currenTime = new Date()
+    alert(currenTime)
 })
