@@ -3,6 +3,6 @@
  const alertCurrentTime = document.getElementById('alertCurrentTime')
  
  alertCurrentTime.addEventListener('click',function(){
-    const currenTime = new Date()
-    alert(currenTime)
+    const currentTime = new Date()
+    alert(currentTime)
 })
