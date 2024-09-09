@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
      
       const textValue = longTextArea.value;
   
-      const newParagraph = document.createElement('p');
+      const newParagraph = document.createElement('li');
   
       newParagraph.textContent = textValue;
   

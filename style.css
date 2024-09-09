@@ -4,8 +4,13 @@ body{
 }
 
     
-#longTextArea{
-height: 100px
+section{
+    display: flex;
+    flex-direction: column;
+}
+button,input{
+width: 100px;
+height: 20px;
 }
 
 p{
