@@ -16,3 +16,6 @@ height: 20px;
 p{
     color: white;
 }
+li{
+    list-style: none;
+}
