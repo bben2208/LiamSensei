@@ -9,8 +9,8 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const textButton = document.getElementById('textButton');
-    const  textInput = document.getElementById('longTextArea');
-    const noteSection = document.getElementById('noteSection');
+    const  textInput = document.getElementById('TextArea');
+    const textList = document.getElementById('textList');
   
     textButton.addEventListener('click', function () {
      
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       newList.textContent = textValue;
   
-      noteSection.appendChild( newList);
+      textList.appendChild( newList);
   
       textInput.value = '';
     });
