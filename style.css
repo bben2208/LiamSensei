@@ -4,18 +4,13 @@ body{
 }
 
     
-section{
-    display: flex;
-    flex-direction: column;
-}
+
 button,input{
 width: 100px;
 height: 20px;
 }
 
-p{
-    color: white;
-}
+
 li{
     list-style: none;
 }
