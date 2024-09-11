@@ -9,20 +9,20 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const textButton = document.getElementById('textButton');
-    const longTextArea = document.getElementById('longTextArea');
+    const  textInput = document.getElementById('longTextArea');
     const noteSection = document.getElementById('noteSection');
   
     textButton.addEventListener('click', function () {
      
-      const textValue = longTextArea.value;
+      const textValue =  textInput.value;
   
-      const newParagraph = document.createElement('li');
+      const  newList = document.createElement('li');
   
-      newParagraph.textContent = textValue;
+      newList.textContent = textValue;
   
-      noteSection.appendChild(newParagraph);
+      noteSection.appendChild( newList);
   
-      longTextArea.value = '';
+      textInput.value = '';
     });
   });
   
