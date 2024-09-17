@@ -7,7 +7,7 @@ Find issue you want to work on top right of the issue, you'll see "Assignees", m
 Go to vscode, make sure you're on main
 
 `git checkout main,`
-      `git pull,`
+`git pull,`
 
 make sure everything is up to date
 
