@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const textButton = document.getElementById('textButton');
-    const  textInput = document.getElementById('textInput');
+    const textInput = document.getElementById('textInput');
     const textList = document.getElementById('textList');
 
     const alertCurrentTime = document.getElementById('alertCurrentTime')
