@@ -7,8 +7,11 @@ document.addEventListener('DOMContentLoaded',function () {
     const textInput = document.getElementById('textInput');
     const textList = document.getElementById('textList');
 
-    // const alertCurrentTime = document.getElementById('alertCurrentTime')
- 
+    const alertCurrentTime = document.getElementById('alertCurrentTime')
+    alertCurrentTime.addEventListener('click',function(){
+        const currentTime = new Date()
+        alert(currentTime)
+     })
  
 
 
@@ -27,7 +30,4 @@ document.addEventListener('DOMContentLoaded',function () {
     });
   });
   
-//   alertCurrentTime.addEventListener('click',function(){
-//     const currentTime = new Date()
-//     alert(currentTime)
-//  })
+  
