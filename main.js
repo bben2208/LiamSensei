@@ -2,7 +2,7 @@
 
  
 
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded',function () {
     const textButton = document.getElementById('textButton');
     const textInput = document.getElementById('textInput');
     const textList = document.getElementById('textList');
@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function () {
     alert(currentTime)
 })
   
-    textButton.addEventListener('click', function () {
+    textButton.addEventListener('click',function () {
      
-      const textValue =  textInput.value;
+      const textValue = textInput.value;
   
       const  newList = document.createElement('li');
   
