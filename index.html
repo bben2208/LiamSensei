@@ -8,24 +8,29 @@
   </head>
   <body>
 
- 
-    <input id="amount" type="number" placeholder="Mortgage amount">
-   
-
-    <input id="term" type="number" placeholder="Length of Term" >
-  
-
-    <input id="interest" type="number" placeholder="Interest rate">
-
-      <input id="repayment"  type="radio" name="mortgage-type" value="repayment" >
-      <label for="repayment">Repayment</label>
+    <div id="calculator">
+        <label for="amount">Loan Amount:</label>
+        <input type="number" id="amount"><br>
     
-      <input id="interest-only"  type="radio" name="mortgage-type" value="interest-only">
-      <label for="interest-only">Interest Only</label>
-   
-      <button id="calculateButton">Calculate</button>
-   
-   
+        <label for="term">Term (Years):</label>
+        <input type="number" id="term"><br>
+    
+        <label for="interest">Annual Interest Rate (%):</label>
+        <input type="number" id="interest" step="0.01"><br>
+    
+        <input type="radio" id="repayment" name="mortgageType" value="repayment">
+        <label for="repayment">Repayment</label><br>
+    
+        <input type="radio" id="interest-only" name="mortgageType" value="interest-only">
+        <label for="interest-only">Interest-Only</label><br>
+    
+        <button id="calculateButton">Calculate</button>
+    
+        <p id="result"></p>
+    </div>
+    
+ 
+    
 
     <script type="text/javascript" src="main.js"></script>
   </body>
